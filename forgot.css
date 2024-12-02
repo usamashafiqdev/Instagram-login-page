@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+
+.navbar{
+    box-shadow: 0px 0.5px 0px 0.5px;
+    color: #dbdbdb;
+}
+
+.img img {
+    height: 8%;
+    width: 8%;
+    padding: 5px 200px 0px 200px;
+    
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    padding-left: 400px;
+    padding-top: 10%;
+
+    
+} 
+
+.content
+ {
+    border: 1px solid #dbdbdb;
+     /* display: flex;  */
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+ }
+
+.lock svg
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.trouble h4 {
+    margin-left: 30%;
+    margin-top: 10px;
+    
+}
+
+.enter p{
+    line-height: 20px;
+    margin-left: 10%;
+    padding-right: 5%;
+    color: #737373;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.form {
+    padding-left: 40px;
+
+}
+
+.form input {
+
+    background-color: #FAFAFA;
+    padding-left: 15px;
+    width: 280px;
+    height: 37px;
+    border-radius: 5px;
+    border-color: #FAFAFA;
+    border: 1px solid #999;
+    margin-top: 8px;
+    
+}
+
+button {
+     background-color:#B1DEFC; 
+    color: #D8EEFD;
+    padding-left: 20px;
+    width: 300px;
+    height: 33px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-left: 39px;
+    margin-top: 14px;
+    border: 1px;
+    border-color:#B1DEFC;
+
+}
+p{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+.or{
+    color: #9999;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 18px;
+    
+}
+span{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.or p{
+    position: relative;
+    bottom: 18px;
+     margin: 13px;
+}
+.create p{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* box-shadow: 0.5xpx px 0px 0.5px 0px; */
+    border: 0.5px solid #dbdbdb;
+    height: 50px;
+    background-color: #FAFAFA;
+}
+footer p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+}
